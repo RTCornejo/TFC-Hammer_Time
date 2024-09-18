@@ -70,16 +70,21 @@ public class SledgeItem extends ToolItem implements CreativeMiningTool {
             for (BlockPos pos : BlockPos.betweenClosed(startPos, endPos)) {
                 BlockState stateAt = level.getBlockState(pos);
                 BlockState originBlock = level.getBlockState(origin);
-
-                if (!pos.equals(origin) && this.isCorrectToolForDrops(stack, stateAt) && this.isCorrectToolForDrops(stack, originBlock)) {
-                    if (!player.isCreative()) {
-                        Block.dropResources(stateAt, level, pos, stateAt.hasBlockEntity() ? level.getBlockEntity(pos) : null, player, player.getMainHandItem());
-                    }
-
-                    level.destroyBlock(pos, false, player);
-                    stack.hurtAndBreak(1, player, (p) -> p.broadcastBreakEvent(player.getUsedItemHand()));
-                    if(stack.getDamageValue() >= stack.getMaxDamage()){
-                        break;
+                if (!pos.equals(origin)) {
+                    BlockEvent.BreakEvent event = new BlockEvent.BreakEvent(level, pos, stateAt, player);
+                    if (!MinecraftForge.EVENT_BUS.post(event)) {
+                        if (this.isCorrectToolForDrops(stack, stateAt) && this.isCorrectToolForDrops(stack, originBlock)) {
+                            if (!player.isCreative()) {
+                                Block.dropResources(stateAt, level, pos, stateAt.hasBlockEntity() ? level.getBlockEntity(pos) : null, player, player.getMainHandItem());
+                                stack.hurtAndBreak(1, player, (p) -> {
+                                    p.broadcastBreakEvent(player.getUsedItemHand());
+                                });
+                            }
+                            level.destroyBlock(pos, false, player);
+                            if (stack.getDamageValue() >= stack.getMaxDamage()) {
+                                break;
+                            }
+                        }
                     }
                 }
             }
