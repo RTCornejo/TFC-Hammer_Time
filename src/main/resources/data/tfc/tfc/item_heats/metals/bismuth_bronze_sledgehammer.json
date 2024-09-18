@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc_hammer_time:metal/sledgehammer/bismuth_bronze"
+  },
+  "heat_capacity": 2.857,
+  "forging_temperature": 591,
+  "welding_temperature": 788
+}
