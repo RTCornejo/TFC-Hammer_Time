@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:double_ingots/bismuth_bronze"
+  },
+  "result": {
+    "item": "tfc_hammer_time:metal/sledgehammer_head/bismuth_bronze"
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "upset_second_last",
+    "draw_third_last"
+  ],
+  "apply_forging_bonus": true
+}

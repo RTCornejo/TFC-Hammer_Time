@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:sheets/bronze"
+  },
+  "result": {
+    "item": "tfc_hammer_time:metal/excavator_head/bronze"
+  },
+  "tier": 2,
+  "rules": [
+    "punch_last",
+    "upset_second_last",
+    "upset_third_last"
+  ],
+  "apply_forging_bonus": true
+}

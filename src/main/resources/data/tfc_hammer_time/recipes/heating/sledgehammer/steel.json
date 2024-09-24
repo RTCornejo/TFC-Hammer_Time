@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_hammer_time:metal/sledgehammer/steel"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/steel",
+    "amount": 250
+  },
+  "temperature": 1540,
+  "use_durability": true
+}
