@@ -1,0 +1,15 @@
+{
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:clay",
+  "outside_slot_required": true,
+  "pattern": [
+    "XXXXX",
+    "X   X",
+    "X   X",
+    "X   X",
+    "X   X"
+  ],
+  "result": {
+    "item": "tfc_hammer_time:ceramic/unfired_excavator_head_mold"
+  }
+}
