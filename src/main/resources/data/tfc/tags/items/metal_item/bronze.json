@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_hammer_time:metal/sledgehammer/bronze",
+    "tfc_hammer_time:metal/excavator/bronze",
+    "tfc_hammer_time:metal/sledgehammer_head/bronze",
+    "tfc_hammer_time:metal/excavator_head/bronze"
+  ]
+}

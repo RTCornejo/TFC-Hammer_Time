@@ -1,0 +1,12 @@
+{
+  "ingredient": [
+    {
+      "tag": "tfc_hammer_time:sledgehammers"
+    },
+    {
+      "tag": "tfc_hammer_time:excavators"
+    }
+  ],
+  "size": "very_large",
+  "weight": "very_heavy"
+}
