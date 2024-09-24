@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc_hammer_time:metal/excavator/bronze"
+    },
+    {
+      "item": "tfc_hammer_time:metal/sledgehammer/bronze"
+    },
+    {
+      "item": "tfc_hammer_time:metal/excavator_head/bronze"
+    },
+    {
+      "item": "tfc_hammer_time:metal/sledgehammer_head/bronze"
+    }
+  ],
+  "heat_capacity": 5.714286,
+  "forging_temperature": 570.0,
+  "welding_temperature": 760.0
+}

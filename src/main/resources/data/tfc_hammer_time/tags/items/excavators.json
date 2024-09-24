@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_hammer_time:metal/excavator/copper",
+    "tfc_hammer_time:metal/excavator/bronze",
+    "tfc_hammer_time:metal/excavator/bismuth_bronze",
+    "tfc_hammer_time:metal/excavator/black_bronze",
+    "tfc_hammer_time:metal/excavator/wrought_iron",
+    "tfc_hammer_time:metal/excavator/steel",
+    "tfc_hammer_time:metal/excavator/black_steel",
+    "tfc_hammer_time:metal/excavator/blue_steel",
+    "tfc_hammer_time:metal/excavator/red_steel"
+  ]
+}

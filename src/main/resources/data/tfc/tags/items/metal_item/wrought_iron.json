@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "tfc_hammer_time:metal/sledgehammer/wrought_iron"
+    "tfc_hammer_time:metal/sledgehammer/wrought_iron",
+    "tfc_hammer_time:metal/excavator/wrought_iron",
+    "tfc_hammer_time:metal/sledgehammer_head/wrought_iron",
+    "tfc_hammer_time:metal/excavator_head/wrought_iron"
   ]
 }

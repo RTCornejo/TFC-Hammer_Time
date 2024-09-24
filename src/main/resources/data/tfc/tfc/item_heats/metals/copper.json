@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc_hammer_time:metal/excavator/copper"
+    },
+    {
+      "item": "tfc_hammer_time:metal/sledgehammer/copper"
+    },
+    {
+      "item": "tfc_hammer_time:metal/excavator_head/copper"
+    },
+    {
+      "item": "tfc_hammer_time:metal/sledgehammer_head/copper"
+    }
+  ],
+  "heat_capacity": 5.714286,
+  "forging_temperature": 648.0,
+  "welding_temperature": 864.0
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc_hammer_time:metal/sledgehammer_head/wrought_iron"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/cast_iron",
+    "amount": 200
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

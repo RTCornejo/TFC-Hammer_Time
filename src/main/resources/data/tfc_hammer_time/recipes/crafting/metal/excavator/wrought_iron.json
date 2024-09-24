@@ -1,0 +1,29 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    "  X",
+    " Y ",
+    "Z  "
+  ],
+  "key": {
+    "X": {
+      "item": "tfc_hammer_time:metal/excavator_head/wrought_iron"
+    },
+    "Y": {
+      "item": "tfc:metal/rod/wrought_iron"
+    },
+    "Z": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "stack": {
+      "item": "tfc_hammer_time:metal/excavator/wrought_iron"
+    },
+    "modifiers": [
+      "tfc:copy_forging_bonus"
+    ]
+  },
+  "input_row": 0,
+  "input_column": 2
+}

@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.loading.FMLEnvironment;
 import net.rtc.hammertime.common.items.ModItems;
 import org.slf4j.Logger;
 
@@ -25,6 +26,7 @@ public class HammerTime
 
     public HammerTime()
     {
+
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
@@ -34,6 +36,11 @@ public class HammerTime
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+
+        if (FMLEnvironment.dist == Dist.CLIENT)
+        {
+            ClientEventHandler.init();
+        }
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
