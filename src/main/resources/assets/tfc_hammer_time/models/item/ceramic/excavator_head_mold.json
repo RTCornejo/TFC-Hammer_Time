@@ -1,0 +1,8 @@
+{
+  "loader": "tfc:contained_fluid",
+  "parent": "forge:item/default",
+  "textures": {
+    "base": "tfc_hammer_time:item/sledgehammer_head_empty",
+    "fluid": "tfc_hammer_time:item/sledgehammer_head_overlay"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tfc_hammer_time:item/bismuth_bronze_excavator_head"
+  }
+}
