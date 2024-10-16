@@ -1,14 +1,13 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "type": "tfc:knapping",
   "knapping_type": "tfc:clay",
   "outside_slot_required": true,
   "pattern": [
-    "XXXXX",
+    "  XXX",
+    "    X",
     "X   X",
-    "     ",
-    "X   X",
-    "XXXXX"
+    "X    ",
+    "XXX  "
   ],
   "result": {
     "item": "tfc_hammer_time:ceramic/unfired_sledgehammer_head_mold"
